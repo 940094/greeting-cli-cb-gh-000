@@ -2,9 +2,6 @@
 
 
 def greeting(name)
-  if name == 'Don'
-    puts "Hello Don. It's nice to meet you."
-  else
-    puts "Hello Sally. It's nice to meet you."
+    puts "Hello #{name.chomp.strip}. It's nice to meet you."
   end
 end
